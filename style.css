@@ -1,0 +1,452 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Poller+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Plus+Jakarta+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Poller+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik&display=swap');
+
+*, *::before, *::after{
+    box-sizing: border-box;
+    
+}
+body{
+    margin: 0px;
+    width: 100%;
+    margin: 0 auto;
+    /* width: 100vh; */
+    /* max-width: 1400px; */
+    overflow-x: hidden;
+}
+header{
+    display: flex;
+    align-items: center;
+}
+header * {
+    display: inline;
+}
+.picone {
+    position: absolute;
+    width: 55px;
+    height: 55px;
+    left: 127px;
+    top: 41px;
+}
+p.p{
+    position: relative;
+    display: flex;
+    justify-content: left;
+    left: 210px;
+    align-items: center;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 60px;
+    color: #6D5344;
+}
+header .atch .brown{
+    top: 5px;
+    margin-left: 250px;
+    font-weight: 400;
+}
+header li {
+    margin: 20px;
+    padding-left: 20px;
+    margin-right: auto;
+}
+header ul li a{
+    font-family: 'Plus Jakarta Sans';
+    position: relative;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 25px;
+    color: #7e5e52;
+    left: 35em;
+    justify-content: space-between;
+}
+p.brown{
+    position: absolute;
+    font-family: 'Poller One';
+    font-style: normal;
+    font-size: 40px;
+    line-height: 48px;
+    color: #6D5344;
+    /* flex: none; */
+    order: 1;
+    /* flex-grow: 0; */
+}
+
+h2.minletter{
+    position: absolute;
+    left: 130px;
+    top: 217px;
+    font-family: "Inter", sans-serif; 
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 61px;
+    color: #000000;
+}
+.fft{
+    display: inline-block;
+}
+.efour {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    left: 79px;
+    top: 430px;
+}
+.efive{
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    left: 289px;
+    top: 480px;
+}
+.ethree{
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    left: 538px;
+    top: 430px;
+}
+p.one{
+    position: absolute;
+    left: 130px;
+    top: 445px;
+    font-family: 'Plus Jakarta Sans'; 
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    color: #000000;
+}
+.minicontainer{
+    position: relative;
+    display: inline-block;
+    top: 400px;
+    left: 120px;
+
+}
+.ellipse {
+    margin-left: 20px;
+    margin-top: 10px;
+}
+a.contactme{
+    position: relative;
+    text-decoration: none;
+    /* height: 25px; */
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    margin-bottom: 20px;
+    padding: 14px 50px;
+    color: #FFFFFF;
+    background-color: #000000;
+    border-radius: 50px;
+}
+.move{
+    margin-left: 40px;
+}
+.picthree{
+    position: absolute;
+    top: 36.88%;
+    bottom: 23.87%;
+    background: #18191B;
+}
+.picfour{
+    position: absolute;
+    top: 32.00%;
+    bottom: 10.35%;
+    background: #18191B;
+}
+.picfive{
+    position: absolute;
+    top: 32.00%;
+    bottom: 10.35%;
+    background: #18191B;
+}
+.innertext{
+    position: relative;
+    display: flex;
+    top: 500px;
+    left: 120px;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 25px;
+}
+.textone{
+    margin-right: 100px;
+}
+.etwo{
+    position: absolute;
+    width: 225px;
+    height: 221px;
+    left: 607px;
+    top: 106px;
+}
+.rec {
+    position: absolute;
+    box-sizing: border-box;
+    /* width: 428px; */
+    width: 32%;
+    height: 535px;
+    left: 860px;
+    top: 218px;
+    border: 2px solid #D7D9D9;
+    border-radius: 33px;
+}
+.pi{
+    position: absolute;
+    width: 32%;
+    /* width: 428px; */
+    height: 535px;
+    left: 812px;
+    top: 257px;
+}
+.flexx{
+    display: flex;
+}
+.maxletter{
+    font-weight: 900;
+    font-size: 60px;
+    font-family: "Inter", sans-serif;  
+    
+}
+#design {
+    margin-left: 120px;
+    margin-top: 740px;
+}
+.aboutdesign{
+    margin-top: 26px;
+    margin-left: 120px;
+    font-family: 'Plus Jakarta Sans'; 
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    color: #000000;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+.frame{
+    position: absolute;
+    flex-direction: column;
+    align-items: flex-end;
+    padding-left: 210px;
+    padding-top: 380px;
+    top: 720px;
+    gap: 10px;
+    order: 5;
+}
+.esix{
+    position: absolute;
+    width: 327px;
+    height: 321px;
+    left: 1031px;
+    top: 954px;
+}
+.eseven{
+    position: absolute;
+    width: 399px;
+    height: 392px;
+    left: -75px;
+    top: 1406px;
+}
+#leftside{
+    padding-left: 766px;
+}
+.building{
+    top: 99px;
+    font-family: 'Plus Jakarta Sans'; 
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    color: #000000;
+}
+.secondcontainer{
+    display: flex;
+    background-color: #D9D9D9;
+    margin-top: 58px;
+    padding-left: 124px;
+    padding-top: 81px;
+    /* width: 1440px; */
+    /* width: 100%; */
+    height: 762px;
+}
+#over{
+    margin-top: 0px;
+}
+.committed{
+    font-family: 'Plus Jakarta Sans'; 
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    color: #000000;
+    order: 1;
+}
+a.btn{
+    /* width: 134px; */
+    position: relative;
+    text-decoration: none;
+    /* height: 25px; */
+    font-family: 'Plus Jakarta Sans';   
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    top: 90px;
+    padding: 14px 50px;
+    color: #FFFFFF;
+    background-color: #000000;
+    border-radius: 50px;
+}
+.pic{
+    position: relative;
+    margin-top: 40px;
+    width: 428px;
+    height: 515px;
+    left: 118px;
+}
+.cardtable{
+    display: flex;
+    margin-bottom: 110px;
+}
+.eten{
+    position: absolute;
+    width: 300px;
+    height: 307px;
+    left: 1100px;
+    top: 2451px;
+}
+#idesign{
+    position: relative;
+    font-family: 'Inter';  
+    font-style: normal;
+    font-weight: 900;
+    font-size: 60px;
+    line-height: 73px;
+    margin-top: 140px;
+    left: 120px;
+}
+.open{
+    position: relative;
+    left: 120px;
+    font-family: 'Plus Jakarta Sans';  
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    color: #000000;
+    order: 1;
+}
+#btna{
+    left: 120px;
+}
+.eeleven{
+    position: absolute;
+    width: 390px;
+    height: 383px;
+    left: -118px;
+    top: 2876px;
+}
+.line{
+    margin:80px 100px 0px 160px;      /*top right bottom left*/
+}
+#idevelop{
+    margin-top: 140px;
+}
+.opensource{
+    font-family: 'Plus Jakarta Sans'; 
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    color: #000000;
+    order: 1;
+}
+.footer{
+    background-color: #D7D9D9;
+    height: 555px;
+    width: 100%;
+}
+footer h3{
+    position: absolute;
+    margin: 20px 0px 0px 120px;
+    top: 3270px;
+    font-family: 'Plus Jakarta Sans';  
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 50px;
+    letter-spacing: 0.125em;
+    color: #000000;
+}
+footer ul li a{
+    text-decoration: none;
+}
+.ws{
+    position: absolute;
+    text-decoration: none;
+    left: 122px;
+    top: 3400px;
+    font-family: 'Plus Jakarta Sans';  
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    color: #000000;
+}
+.wa{
+    position: absolute;
+    text-decoration: none;
+    left: 122px;
+    top: 3450px;
+    font-family: 'Plus Jakarta Sans';  
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    color: #000000;
+}
+footer ul li{
+    list-style-type: none;
+    margin-top: 40px;
+}
+footer ul li a{
+    position: relative;
+    height: 30px;
+    left: 620px;
+    top: 100px;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    color: #000000;
+}
+hr{
+    position: absolute;
+    width: 1162.01px;
+    left: 120px;
+    top: 222em;
+    border: 1px solid #000000;
+}
+.djil{
+    position: absolute;
+    left: 120px;
+    top: 149em;
+    font-family: 'Plus Jakarta Sans';  
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    color: #000000;
+}
